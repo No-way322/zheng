@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /boy
+  port: 8081
+
+#获取值
+cupSize: 费城76人
+name: 艾弗森
+age: 20
+
+content: "name: ${name} age: ${age}}"
+
+gril:
+  name: 詹姆斯
+  age: 18
+  cupSize: 克利夫兰骑士
